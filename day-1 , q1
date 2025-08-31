@@ -1,0 +1,17 @@
+// program to input 2 nuumbers and print their sum
+
+#include <stdio.h>
+int main() 
+{
+    // asking the user to input 2 numbers
+    int a,b,sum;
+    printf("enter first number: ");
+    scanf("%d", &a);
+    printf("enter second number: ");
+    scanf("%d", &b);
+    
+    // now calculating their sum
+    sum = a+b;
+    printf("the sum the numbers is %d", sum);
+    return 0;
+}
