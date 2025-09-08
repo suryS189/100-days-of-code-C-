@@ -1,0 +1,22 @@
+// program to find and display sum of first n natural numbers
+
+#include <stdio.h>
+
+int main()
+{
+    // input value of n
+    int n , sum=0;
+    printf("enter the value of n: ");
+    scanf("%d", &n);
+    
+    // calculate the sum of first n natural numbers
+    for(int i=1; i<=n; i++)
+    {
+        sum += i;
+    }
+    
+    // displaying the sum 
+    printf("the sum of first %d natural numbers is: %d\n", n , sum);
+
+    return 0;
+}
