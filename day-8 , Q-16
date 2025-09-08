@@ -1,0 +1,27 @@
+// program to input three numbers and find the largest among them using if–else.
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+    
+    // input 3 numbers by user
+    printf("enter 3 numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+    
+    // finding and displaying the largent number among the 3
+    if (a >= b && a >= c)
+    {
+        printf("the largest number is: %d\n", a);
+    }
+    else if (b >= a && b >= c)
+    {
+        printf("the largest number is: %d\n", b);
+    }
+    else
+    {
+        printf("the largest number is: %d\n", c);
+    }
+    return 0;
+}
